@@ -1,0 +1,14 @@
+
+RewriteOptions inherit
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^www\.saigreengardens\.com$
+RewriteRule ^/?$ "https:\/\/saigreengardens.com\/" [R=301,L]
+
+ErrorDocument 404 https://saigreengardens.com/404.html
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.saigreengardens.com$
+RewriteRule (.*) https://saigreengardens.com/$1 [R=301,L]
+</IfModule>

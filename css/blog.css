@@ -1,0 +1,41 @@
+body {
+  background-color: sky blue;
+  color: black;
+}
+p  {
+	
+  text-align: justify;
+
+}
+
+h1 {
+  background-color: white;
+  color: green;
+  text-align: center;
+
+}
+ol {
+  
+  text-align: justify;
+}
+ul{
+	
+	text-align: center;
+}
+li{
+	text-align: justify;
+}
+
+h2 {
+  background-color: white;
+  color: #3CB371;
+  padding-left: 35px;
+}
+h3
+{
+  background-color: white;
+  color: #90EE90;
+  text-align: left;
+  padding-left: 40px;
+}
+
